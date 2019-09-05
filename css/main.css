@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Tangerine:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+body {
+    margin: 0!important;
+}
+
+#particles-js {
+    background: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.primary-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.quote-primary-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.transparent {
+   background: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.brand-logo {
+    font-family: 'Parisienne', cursive!important;
+    color: rgb(195,141,124)!important;
+}
+
+.nav-wrapper ul a{
+    font-family: 'Parisienne', cursive!important;
+    font-size: 1.4rem!important;
+    letter-spacing: 1px!important;
+}
+
+.main-header {
+  background: url(../img/background.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: white;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+h1 {
+    font-size: 4.2rem;
+    line-height: 110%;
+    margin: 6rem 0 1.68rem 0;
+}
+
+.logo {
+    font-family: 'Parisienne', cursive;
+    color: rgb(195,141,124);
+    font-size: 10rem!important;
+}
+
+.tagline {
+    font-family: 'Parisienne', cursive;
+    color: rgb(195,141,124);
+    font-size: 2rem;
+    margin: 3rem 0 0rem 0;
+}
+
+.btn_custom {
+    background-color: rgba(195,141,124,0.3);
+    color: rgb(210,210,210)!important;
+    border: 2px solid rosybrown!important;
+    border-radius: 25px; 
+    transition: 0.5s;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.btn_custom:hover {
+    background-color: rgba(195,141,124,0.6)!important;
+}
+
+.section h3 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 4px;
+}
+
+.description {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.8rem;
+}
+
+.section-developers {
+    position: relative;
+    background: url(../img/night-sky1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: #888 solid 1px;
+    border-bottom: #888 solid 1px;
+    min-height: 350px;
+}
+
+.section h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 2.7rem;
+    color: rgb(195,141,124); 
+}
+
+.author {
+    font-family: 'Parisienne', cursive;
+    color: rgb(195,141,124);
+    font-size: 1.5rem;
+}
+
+.heading-style {
+    color: rgb(188,46,88);
+}
+
+.footer {
+    position: relative;
+    background: url(../img/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-top: #888 solid 1px;
+    border-bottom: #888 solid 1px;
+    min-height: 300px;
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Parisienne', cursive;
+    color: rgb(195,141,124);
+    font-size: 7vh;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(195,141,124, 0.15), rgba(195,141,124, 0.95), rgba(195,141,124, 0.15));
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.footer-tagline {
+    font-family: 'Parisienne', cursive;
+    color: rgb(180,180,180);
+    font-size: 4vh;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+}
+
+/* Social Icons */
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3b5998;
+}
+.social-btns .btn.twitter:before {
+  background-color: #3cf;
+}
+.social-btns .btn.twitter .fa {
+  color: #3cf;
+}
+.social-btns .btn.google:before {
+  background-color: #dc4a38;
+}
+.social-btns .btn.google .fa {
+  color: #dc4a38;
+}
+.social-btns .btn.dribbble:before {
+  background-color: #f26798;
+}
+.social-btns .btn.dribbble .fa {
+  color: #f26798;
+}
+.social-btns .btn.skype:before {
+  background-color: #00aff0;
+}
+.social-btns .btn.skype .fa {
+  color: #00aff0;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.social-btns {
+  height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: "";
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
